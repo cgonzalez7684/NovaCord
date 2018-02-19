@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="97284675b5a64960a7d7e84af7e65198" Name="Diagram1">
+        <EntityTypeShape EntityType="NovaCordModel.Modulos" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NovaCordModel.Pantallas" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="NovaCordModel.Permisos" Width="1.5" PointX="3" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="NovaCordModel.SubOpciones" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="NovaCordModel.Usuarios" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="NovaCordModel.FK__SubOpcion__IdMod__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="NovaCordModel.FK__Pantallas__IdSub__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="NovaCordModel.FK__Permisos__IdUsua__46E78A0C" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="NovaCordModel.AHORROS_BIT_TRAS" Width="1.5" PointX="5.375" PointY="4.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
